@@ -134,7 +134,7 @@ export default function Home() {
                   value={globalFilter}
                   onChange={e => setGlobalFilter(e.target.value)}
                   placeholder="Search…"
-                  className="w-full pl-9 pr-4 py-2 text-sm bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
+                  className="w-full pl-9 pr-4 py-2 text-sm text-gray-900 placeholder-gray-400 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
                 />
               </div>
               <span className="text-xs text-gray-400 whitespace-nowrap">
